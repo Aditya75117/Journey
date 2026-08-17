@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="140" viewBox="0 0 360 140" fill="none" role="img" aria-label="cloud">
+  <!-- Compact round cloud -->
+  <ellipse cx="180" cy="85" rx="100" ry="38" fill="#FFFFFF"/>
+  <ellipse cx="130" cy="72" rx="55" ry="36" fill="#FFFFFF"/>
+  <ellipse cx="220" cy="65" rx="62" ry="40" fill="#FFFFFF"/>
+  <ellipse cx="175" cy="55" rx="42" ry="32" fill="#FFFFFF"/>
+</svg>

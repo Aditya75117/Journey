@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none" aria-hidden="true">
+  <rect width="640" height="400" fill="#F0FDF4"/>
+  <rect x="40" y="30" width="560" height="50" rx="8" fill="#FFFFFF"/>
+  <rect x="60" y="45" width="80" height="20" rx="4" fill="#22C55E"/>
+  <rect x="160" y="48" width="60" height="14" rx="3" fill="#E5E7EB"/>
+  <rect x="240" y="48" width="60" height="14" rx="3" fill="#E5E7EB"/>
+  <rect x="40" y="100" width="560" height="270" rx="12" fill="#FFFFFF"/>
+  <rect x="60" y="120" width="200" height="24" rx="4" fill="#166534"/>
+  <rect x="60" y="160" width="300" height="12" rx="3" fill="#D1FAE5"/>
+  <rect x="60" y="185" width="250" height="12" rx="3" fill="#D1FAE5"/>
+  <rect x="60" y="220" width="160" height="100" rx="8" fill="#BBF7D0"/>
+  <rect x="240" y="220" width="160" height="100" rx="8" fill="#86EFAC"/>
+  <rect x="420" y="220" width="160" height="100" rx="8" fill="#4ADE80"/>
+  <circle cx="140" cy="270" r="20" fill="#22C55E"/>
+  <text x="320" y="380" text-anchor="middle" fill="#166534" font-family="Inter,sans-serif" font-size="14" font-weight="600">Greenora  Plant Care</text>
+</svg>

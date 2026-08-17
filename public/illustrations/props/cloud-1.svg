@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="180" viewBox="0 0 480 180" fill="none" role="img" aria-label="cloud">
+  <!-- Wide cumulus: three stacked puffs -->
+  <ellipse cx="150" cy="110" rx="95" ry="42" fill="#FFFFFF"/>
+  <ellipse cx="230" cy="95" rx="88" ry="52" fill="#FFFFFF"/>
+  <ellipse cx="310" cy="108" rx="78" ry="38" fill="#FFFFFF"/>
+  <ellipse cx="200" cy="70" rx="55" ry="40" fill="#FFFFFF"/>
+  <ellipse cx="270" cy="68" rx="48" ry="36" fill="#FFFFFF"/>
+</svg>

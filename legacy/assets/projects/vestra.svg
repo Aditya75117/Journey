@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none" aria-hidden="true">
+  <rect width="640" height="400" fill="#FAFAFA"/>
+  <rect x="40" y="30" width="560" height="50" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="60" y="45" width="60" height="20" rx="4" fill="#18181B"/>
+  <rect x="40" y="100" width="280" height="270" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="60" y="120" width="200" height="180" rx="4" fill="#F4F4F5"/>
+  <rect x="340" y="100" width="260" height="270" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="360" y="120" width="160" height="16" rx="3" fill="#18181B"/>
+  <rect x="360" y="150" width="220" height="10" rx="2" fill="#E5E7EB"/>
+  <rect x="360" y="170" width="180" height="10" rx="2" fill="#E5E7EB"/>
+  <rect x="360" y="210" width="100" height="36" rx="18" fill="#18181B"/>
+  <text x="320" y="390" text-anchor="middle" fill="#71717A" font-family="Inter,sans-serif" font-size="14" font-weight="600">Vestra  Fashion E-commerce</text>
+</svg>

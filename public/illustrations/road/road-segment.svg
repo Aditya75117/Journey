@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120" fill="none" role="img" aria-label="road">
+
+  <rect width="800" height="120" fill="#2A303A"/>
+  <rect y="54" width="800" height="8" fill="#3A4250"/>
+  <g fill="#E8B86D" opacity="0.7">
+    <rect x="40" y="56" width="48" height="4" rx="1"/>
+    <rect x="140" y="56" width="48" height="4" rx="1"/>
+    <rect x="240" y="56" width="48" height="4" rx="1"/>
+    <rect x="340" y="56" width="48" height="4" rx="1"/>
+    <rect x="440" y="56" width="48" height="4" rx="1"/>
+    <rect x="540" y="56" width="48" height="4" rx="1"/>
+    <rect x="640" y="56" width="48" height="4" rx="1"/>
+    <rect x="740" y="56" width="48" height="4" rx="1"/>
+  </g>
+
+</svg>

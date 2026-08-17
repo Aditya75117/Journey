@@ -1,0 +1,359 @@
+/* Hero */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: var(--header-height);
+  padding-bottom: var(--section-padding);
+}
+
+.hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero__title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.hero__title .text-gradient {
+  background-size: 200% auto;
+  animation: gradient-shimmer 4s ease-in-out infinite;
+}
+
+.hero__subtitle {
+  font-size: 1.0625rem;
+  color: var(--text-muted);
+  max-width: 480px;
+  line-height: 1.7;
+}
+
+.hero__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.hero__visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__illustration {
+  width: 100%;
+  max-width: 520px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__float {
+  position: absolute;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid var(--border-accent);
+  border-radius: var(--radius-sm);
+  padding: 0.375rem 0.625rem;
+  animation: float 4s ease-in-out infinite;
+  z-index: 2;
+}
+
+.hero__float--1 {
+  top: 10%;
+  left: -5%;
+  animation-delay: 0s;
+}
+
+.hero__float--2 {
+  top: 25%;
+  right: -8%;
+  animation-delay: 0.8s;
+}
+
+.hero__float--3 {
+  bottom: 30%;
+  left: -10%;
+  animation-delay: 1.6s;
+}
+
+.hero__float--4 {
+  bottom: 15%;
+  right: -5%;
+  animation-delay: 2.4s;
+}
+
+/* About */
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about__title {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.about__text {
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 440px;
+}
+
+.about__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+/* Work */
+.work__header-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-top: 0.75rem;
+  transition: color var(--transition-fast);
+}
+
+.work__header-link:hover {
+  color: var(--accent);
+}
+
+.work__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Skills */
+.skills__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Process */
+.process {
+  text-align: center;
+}
+
+.process__title {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+  letter-spacing: -0.02em;
+}
+
+.process__timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.process__line {
+  position: absolute;
+  top: 28px;
+  left: 12.5%;
+  right: 12.5%;
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--border-subtle) 0,
+    var(--border-subtle) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  z-index: 0;
+}
+
+.process__line-fill {
+  height: 100%;
+  width: 0;
+  background: var(--accent);
+  transition: width 1.2s ease;
+}
+
+#process-timeline.is-visible .process__line-fill {
+  width: 100%;
+}
+
+.process__step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.process__icon {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 50%;
+  color: var(--accent);
+  transition: background var(--transition-base), border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.process__step:hover .process__icon {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: var(--border-accent);
+  box-shadow: 0 0 24px rgba(139, 92, 246, 0.2);
+}
+
+.process__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.process__number {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+}
+
+.process__name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.process__desc {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 200px;
+}
+
+/* Testimonials */
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.testimonial-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.testimonial-card__quote {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.testimonial-card__author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.testimonial-card__avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.testimonial-card__name {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.testimonial-card__role {
+  font-size: 0.75rem;
+  color: var(--text-subtle);
+}
+
+/* CTA */
+.cta {
+  padding-bottom: var(--section-padding);
+}
+
+.cta__card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(3rem, 6vw, 5rem);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cta__title {
+  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  max-width: 600px;
+  line-height: 1.2;
+}
+
+.cta__decoration {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.cta__decoration svg {
+  width: 200px;
+  height: 120px;
+}
+
+.cta__plane {
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+  color: var(--accent);
+  opacity: 0.6;
+  animation: float 3s ease-in-out infinite;
+}
+
+.cta__plane svg {
+  width: 32px;
+  height: 32px;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" fill="none" role="img" aria-label="shyftlabs/card">
+
+  <rect width="320" height="200" rx="16" fill="#14181F"/>
+  <text x="40" y="85" fill="#F2F0EB" font-family="system-ui" font-size="17" font-weight="600">Senior UI Developer</text>
+  <text x="40" y="115" fill="#9AA3B2" font-family="system-ui" font-size="12">ShyftLabs · Present</text>
+
+</svg>

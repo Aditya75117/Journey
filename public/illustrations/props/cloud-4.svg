@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" fill="none" role="img" aria-label="cloud">
+  <!-- Tall fluffy pile -->
+  <ellipse cx="200" cy="130" rx="110" ry="45" fill="#FFFFFF"/>
+  <ellipse cx="140" cy="105" rx="65" ry="48" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="100" rx="70" ry="50" fill="#FFFFFF"/>
+  <ellipse cx="195" cy="70" rx="58" ry="48" fill="#FFFFFF"/>
+  <ellipse cx="165" cy="85" rx="40" ry="35" fill="#FFFFFF"/>
+  <ellipse cx="235" cy="80" rx="38" ry="36" fill="#FFFFFF"/>
+</svg>
