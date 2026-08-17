@@ -214,9 +214,6 @@ function JourneyExperience() {
                     (p) => p.layer === "fg" && isWorldSyncedRoadProp(p.src),
                   )
                   .map((prop, i) => {
-                    const sitsOnRoadTop =
-                      prop.src.includes("/bush-") ||
-                      prop.src.includes("/bench-");
                     return (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
