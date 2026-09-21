@@ -1,12 +1,27 @@
 "use client";
 
+import { LANDING_URL } from "@/constants/links";
 import { chapters, getMilestoneById } from "@/data/timeline";
 
 export function ReducedMotionFallback() {
   return (
     <main className="min-h-screen bg-[#0B0D10] px-5 py-16 text-[#F2F0EB] md:px-10">
       <header className="mx-auto max-w-2xl">
-        <p className="font-[family-name:var(--font-display)] text-4xl">AD.</p>
+        <a
+          href={LANDING_URL}
+          className="inline-block"
+          aria-label="Aditya Dutta — portfolio home"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/ad-mark.png"
+            alt=""
+            width={500}
+            height={330}
+            className="h-10 w-auto"
+            draggable={false}
+          />
+        </a>
         <h1 className="mt-2 text-2xl text-[#C5CED9]">Aditya Dutta</h1>
         <p className="mt-4 text-[#9AA3B2]">
           A quieter version of the journey — reduced motion is on. Scroll the
@@ -63,6 +78,7 @@ export function ReducedMotionFallback() {
           </a>
           <a
             href="/cv.pdf"
+            download="Aditya_Dutta_Resume.pdf"
             className="text-[#C5CED9] underline-offset-4 hover:underline"
           >
             CV
